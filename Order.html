@@ -1,0 +1,278 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <h1 id="section">Check out this menu...</h1>
+        <div id="menu-row">
+            <div id="menu_col">
+                <h2>Breakfast</h2>
+                <div class="box">
+
+                    <div id="image">
+                        <img src="piicture/upma.jpg">
+                    </div>
+                    <div>
+                        <h3>Upma</h3>
+                        <h4>30rs</h4>
+                        <button><a href="#">Order now</a></button>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/poha.jpg">
+                    </div>
+                    <div>
+                        <h3>Poha</h3>
+                        <h4>20rs</h4>
+                        <button><a href="#">Order now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/vadapaw.jpg">
+                    </div>
+                    <div>
+                        <h3>Vadapaw</h3>
+                        <h4>40rs</h4>
+                        <button><a href="#">Order now</a></button>
+                    </div>
+                </div>
+
+            </div>
+            <div id="menu_col">
+                <h2>Lunch</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/dosa.jpg">
+                    </div>
+                    <div>
+                        <h3>Dosa</h3>
+                        <h4>90rs</h4>
+                        <button class="button"><a href="#">Order now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/paneerroll.jpg">
+                    </div>
+                    <div>
+                        <h3>Paneer roll</h3>
+                        <h4>80rs</h4>
+                        <button class="button"><a href="#">Order now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/sandwitch.jpg">
+                    </div>
+                    <div>
+                        <h3>Sandwitch</h3>
+                        <h4>60rs</h4>
+                        <button class="button"><a href="#">Order now</a></button>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_col">
+                <h2>Dinner</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/fishfry.jpg">
+                    </div>
+                    <div>
+                        <h3>Fish fry</h3>
+                        <h4>90rs</h4>
+                        <button class="button"><a href="#">Order now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/biryani.jpg">
+                    </div>
+                    <div>
+                        <h3>Biryani</h3>
+                        <h4>120rs</h4>
+                        <button class="button"><a href="#">Order now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="piicture/kabab.jpg">
+                    </div>
+                    <div>
+                        <h3>Kabab</h3>
+                        <h4>160rs</h4>
+                        <button class="button"><a href="#">Order now</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<Style>* {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ body {
+     width: 99%;
+     height: 97%;
+     background-image: url('piicture/background.png');
+     background-size: cover;
+ }
+ 
+ .top {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 80px;
+     align-items: center;
+     padding: 0px 40px;
+ }
+ 
+ .logo {
+     font-size: 30px;
+     color: beige;
+ }
+ 
+ .nav {
+     position: relative;
+     left: 100px;
+ }
+ 
+ a {
+     padding: 5px 15px;
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     color: white;
+     text-decoration: underline;
+     text-underline-position: under;
+ }
+ 
+ .search {
+     font-size: 25px;
+     color: white;
+ }
+ 
+ .search i {
+     padding: 5px 20px;
+ }
+ 
+ .heading {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 110px;
+     padding-right: 550px;
+ }
+ 
+ .left p:nth-child(1) {
+     color: white;
+     letter-spacing: 1px;
+     font-style: italic;
+ }
+ 
+ .left h1 {
+     font-size: 90px;
+     color: white;
+ }
+ 
+ .left p:nth-child(3) {
+     color: white;
+     font-size: 30px;
+     font-style: italic;
+ }
+ 
+ .left button {
+     width: 200px;
+     height: 40px;
+     font-size: 15px;
+     border-radius: 2px solid white;
+     background-color: gray;
+     color: white;
+     margin: 20px 50px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
+ .left button a {
+     font-size: medium;
+ }
+ /* menu section start */
+ 
+ #menu {
+     padding: 25px 0 25px 0;
+     background-image: url("piicture/blackimage.jpg");
+ }
+ 
+ #section {
+     padding: 25px 0 25px 0;
+     text-align: center;
+     font-size: 2rem;
+     color: yellow;
+     font-family: verdana;
+ }
+ 
+ #menu_row {
+     display: flex;
+     padding: 0 100px 0 100px;
+ }
+ 
+ #menu_col {
+     box-shadow: 2px 2px 2px #bbb;
+     border: 1px solid #bbb;
+     background-color: white;
+     margin: 10px;
+     padding: 10px;
+     flex: 1px;
+ }
+ 
+ #menu_col h2 {
+     background-color: red;
+     color: #fff;
+     text-align: center;
+     padding: 5px;
+     font-family: cursive;
+ }
+ 
+ #image {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     padding: 5px;
+     border: 2px solid orange;
+ }
+ 
+ #image img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+ 
+ .box {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     margin: 5px;
+ }
+ 
+ button {
+     padding: 10px 20px;
+     background-color: red;
+ }
+ 
+ button:hover {
+     border: 5px solid white;
+ }</style>
+</body>
+
+
+</html>
